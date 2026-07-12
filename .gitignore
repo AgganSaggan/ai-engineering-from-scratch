@@ -21,6 +21,14 @@ build/
 #secrets
 .env
 .env.*
+*.bin
+*.safetensors
+*.pt
+*.onnx
+data/*.parquet
+data/*.csv
+models/
+
 
 node_modules/
 .next/
